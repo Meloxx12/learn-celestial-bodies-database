@@ -1,0 +1,35 @@
+2024-03-13 19:18:34.977 [info] Log level: Info
+2024-03-13 19:18:34.977 [info] Validating found git in: "git"
+2024-03-13 19:18:34.977 [info] Using git "2.43.0" from "git"
+2024-03-13 19:18:34.977 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-13 19:18:34.977 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-13 19:18:34.977 [info] Open repository: /workspace/project
+2024-03-13 19:18:34.977 [info] > git config --get commit.template [10ms]
+2024-03-13 19:18:34.977 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-13 19:18:34.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-03-13 19:18:34.977 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-13 19:18:34.977 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 19:18:34.977 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-13 19:18:34.977 [info] > git status -z -uall [6ms]
+2024-03-13 19:18:34.977 [info] > git config --get commit.template [6ms]
+2024-03-13 19:18:34.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-03-13 19:18:34.977 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 19:18:34.977 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-13 19:18:34.977 [info] > git status -z -uall [2ms]
+2024-03-13 19:18:35.510 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-13 19:18:35.536 [info] > git show --textconv :universe.sql [8ms]
+2024-03-13 19:18:35.537 [info] > git ls-files --stage -- /workspace/project/universe.sql [3ms]
+2024-03-13 19:18:37.434 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-13 19:18:37.434 [warning] git config failed: Failed to execute git
+2024-03-13 19:18:37.911 [info] > git show --textconv :universe_new.sql [12ms]
+2024-03-13 19:18:37.912 [info] > git ls-files --stage -- /workspace/project/universe_new.sql [1ms]
+2024-03-13 19:19:05.679 [info] > git config --get commit.template [7ms]
+2024-03-13 19:19:05.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-13 19:19:05.686 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 19:19:05.687 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-13 19:19:05.697 [info] > git status -z -uall [2ms]
+2024-03-13 19:22:35.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-13 19:22:35.689 [info] > git config --get commit.template [13ms]
+2024-03-13 19:22:35.694 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 19:22:35.695 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-13 19:22:35.702 [info] > git status -z -uall [1ms]

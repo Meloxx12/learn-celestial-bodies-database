@@ -1,0 +1,10 @@
+2024-03-12 22:23:39.854 [info] 
+
+
+
+
+2024-03-12 22:23:39.871 [info] Extension host agent started.
+2024-03-12 22:23:39.942 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-03-12 22:23:39.942 [info] Extension 'github.vscode-pull-request-github' v0.82.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-03-12 22:23:39.942 [info] Installing extensions...
+2024-03-12 22:23:39.951 [info] Extension 'coderoad.coderoad' v0.19.4 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'coderoad.coderoad@1.2.3'.

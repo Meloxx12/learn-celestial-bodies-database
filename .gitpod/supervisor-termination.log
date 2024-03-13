@@ -1,0 +1,36 @@
+[260ns] Shutting down all processes 
+[559.63µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[12.040929ms] Terminating process node with PID 529 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240313T153904] <nil>). 
+[12.072749ms] Terminating process node with PID 125 (state: R, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension coderoad.coderoad --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[12.056119ms] Terminating process node with PID 1415 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node /home/gitpod/.vscode-server/extensions/redhat.vscode-yaml-1.14.0/dist/languageserver.js --node-ipc --clientProcessId=1140] <nil>). 
+[12.123049ms] Terminating process postgres with PID 667 (state: S, cmdlind: [postgres: 12/main: checkpointer   ] <nil>). 
+[12.154959ms] Terminating main process errored: waitid: no child processes 
+[12.133199ms] Terminating main process errored: waitid: no child processes 
+[12.198849ms] Terminating process postgres with PID 668 (state: S, cmdlind: [postgres: 12/main: background writer   ] <nil>). 
+[12.215659ms] Terminating process postgres with PID 669 (state: S, cmdlind: [postgres: 12/main: walwriter   ] <nil>). 
+[12.224029ms] Terminating process postgres with PID 670 (state: S, cmdlind: [postgres: 12/main: autovacuum launcher   ] <nil>). 
+[12.274949ms] Terminating process bash with PID 540 (state: S, cmdlind: [/usr/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[12.279149ms] Terminating main process errored: waitid: no child processes 
+[12.233809ms] Terminating process node with PID 1140 (state: R, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node --dns-result-order=ipv4first /home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[12.297149ms] Terminating main process errored: waitid: no child processes 
+[12.304009ms] Terminating main process errored: waitid: no child processes 
+[12.309679ms] Terminating process node with PID 1058 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node /home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --install-extension=gitpod.gitpod-remote-ssh --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-6a5215dc-5752-41b8-8470-7bef77468c50] <nil>). 
+[12.344929ms] Terminating main process errored: waitid: no child processes 
+[12.093189ms] Terminating main process errored: waitid: no child processes 
+[12.074049ms] Terminating process postgres with PID 671 (state: S, cmdlind: [postgres: 12/main: stats collector   ] <nil>). 
+[12.388059ms] Terminating main process errored: waitid: no child processes 
+[12.307069ms] Terminating main process errored: waitid: no child processes 
+[12.397319ms] Terminating main process errored: waitid: no child processes 
+[12.412189ms] Terminating process postgres with PID 665 (state: S, cmdlind: [/usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf] <nil>). 
+[12.422779ms] Terminating process sh with PID 998 (state: S, cmdlind: [sh /home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --install-extension=gitpod.gitpod-remote-ssh --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-6a5215dc-5752-41b8-8470-7bef77468c50] <nil>). 
+[12.437829ms] Terminating process node with PID 1175 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node /home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[12.461719ms] Terminating main process errored: waitid: no child processes 
+[12.546849ms] Terminating process node with PID 1197 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node /home/gitpod/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/bootstrap-fork --type=ptyHost --logsPath /home/gitpod/.vscode-server/data/logs/20240313T153942] <nil>). 
+[12.574389ms] Terminating main process errored: waitid: no child processes 
+[12.690609ms] Terminating process postgres with PID 672 (state: S, cmdlind: [postgres: 12/main: logical replication launcher   ] <nil>). 
+[12.737059ms] Terminating main process errored: waitid: no child processes 
+[13.368739ms] Terminating main process errored: waitid: no child processes 
+[34.837377ms] Terminating main process errored: waitid: no child processes 
+[35.480177ms] Terminating main process errored: waitid: no child processes 
+[36.081437ms] Couldn't obtain process information for PID 1140. 
+[36.616667ms] Finished shutting down all processes. 

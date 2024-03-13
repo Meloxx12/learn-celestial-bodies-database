@@ -1,0 +1,70 @@
+2024-03-12 21:14:04.021 [info] 
+
+
+
+
+2024-03-12 21:14:04.021 [info] Extension host agent started.
+2024-03-12 21:14:04.022 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-12 21:14:04.034 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-03-12 21:14:05.323 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2024-03-12 21:14:05.615 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-03-12 21:14:05.636 [info] Getting Manifest... gitpod.gitpod-theme
+2024-03-12 21:14:05.636 [info] Getting Manifest... github.vscode-pull-request-github
+2024-03-12 21:14:06.180 [info] [192.168.34.203][c2c56b24][ManagementConnection] New connection established.
+2024-03-12 21:14:06.637 [info] Installing extension: gitpod.gitpod-theme
+2024-03-12 21:14:06.637 [info] Installing extension: github.vscode-pull-request-github
+2024-03-12 21:14:08.093 [info] [192.168.34.203][c11ef006][ExtensionHostConnection] New connection established.
+2024-03-12 21:14:08.099 [info] [192.168.34.203][c11ef006][ExtensionHostConnection] <656> Launched Extension Host Process.
+2024-03-12 21:14:09.860 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-12 21:14:09.861 [info] Extension signature verification is not done: gitpod.gitpod-theme
+2024-03-12 21:14:09.896 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal: gitpod.gitpod-theme
+2024-03-12 21:14:09.898 [info] Renamed to /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal
+2024-03-12 21:14:09.900 [info] Extracting extension completed. gitpod.gitpod-theme
+2024-03-12 21:14:10.378 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-12 21:14:10.378 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-03-12 21:14:10.435 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal: github.vscode-pull-request-github
+2024-03-12 21:14:10.439 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.82.0-universal
+2024-03-12 21:14:10.442 [info] Extracting extension completed. github.vscode-pull-request-github
+2024-03-12 21:14:10.447 [info] Extension installed successfully: gitpod.gitpod-theme
+2024-03-12 21:14:10.447 [info] Extension installed successfully: github.vscode-pull-request-github
+2024-03-12 21:14:10.449 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2024-03-12 21:14:10.449 [info] Extension 'github.vscode-pull-request-github' v0.82.0 was successfully installed.
+2024-03-12 21:14:10.449 [info] Installing extensions...
+2024-03-12 21:14:10.521 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-12 21:14:11.239 [info] Installing extension 'coderoad.coderoad'...
+2024-03-12 21:14:11.239 [info] Getting Manifest... coderoad.coderoad
+2024-03-12 21:14:11.842 [info] Getting Manifest... coderoad.coderoad
+2024-03-12 21:14:11.898 [info] Installing extension: coderoad.coderoad
+2024-03-12 21:14:12.512 [info] Extension is already requested to install coderoad.coderoad
+2024-03-12 21:14:14.640 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-03-12 21:14:14.641 [info] Extension signature verification is not done: coderoad.coderoad
+2024-03-12 21:14:14.692 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2024-03-12 21:14:14.694 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2024-03-12 21:14:14.696 [info] Extracting extension completed. coderoad.coderoad
+2024-03-12 21:14:14.701 [info] Extension installed successfully: coderoad.coderoad
+2024-03-12 21:14:14.701 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.
+2024-03-12 21:25:57.293 [info] [192.168.34.203][c2c56b24][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-12 21:25:57.333 [info] [192.168.34.203][c11ef006][ExtensionHostConnection] <656> Extension Host Process exited with code: 0, signal: null.
+2024-03-12 21:51:46.278 [info] [192.168.34.203][f19ad555][ManagementConnection] New connection established.
+2024-03-12 21:51:46.741 [info] [192.168.34.203][ebb8c3e6][ExtensionHostConnection] New connection established.
+2024-03-12 21:51:46.774 [info] [192.168.34.203][ebb8c3e6][ExtensionHostConnection] <11783> Launched Extension Host Process.
+2024-03-12 21:51:47.261 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-12 21:56:23.592 [info] [192.168.34.203][f19ad555][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-12 21:56:23.629 [info] [192.168.34.203][ebb8c3e6][ExtensionHostConnection] <11783> Extension Host Process exited with code: 0, signal: null.
+2024-03-12 21:57:17.462 [info] [192.168.21.10][2985f8ca][ManagementConnection] New connection established.
+2024-03-12 21:57:17.783 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-12 21:57:18.102 [info] [192.168.46.137][d90aeeb6][ExtensionHostConnection] New connection established.
+2024-03-12 21:57:18.109 [info] [192.168.46.137][d90aeeb6][ExtensionHostConnection] <13682> Launched Extension Host Process.
+2024-03-12 21:59:59.153 [info] [192.168.34.203][6b1c051a][ManagementConnection] New connection established.
+2024-03-12 21:59:59.459 [warning] Skipping extension /workspace/.vscode-remote/extensions/gitpod.gitpod-theme-0.0.2-universal in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2024-03-12 21:59:59.863 [info] [192.168.46.137][9bb1ea1b][ExtensionHostConnection] New connection established.
+2024-03-12 21:59:59.878 [info] [192.168.46.137][9bb1ea1b][ExtensionHostConnection] <14313> Launched Extension Host Process.
+2024-03-12 22:00:13.563 [info] [192.168.34.203][6b1c051a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-12 22:00:13.599 [info] [192.168.46.137][9bb1ea1b][ExtensionHostConnection] <14313> Extension Host Process exited with code: 0, signal: null.
+2024-03-12 22:04:59.252 [info] [192.168.46.137][d90aeeb6][ExtensionHostConnection] <13682> Extension Host Process exited with code: 0, signal: null.

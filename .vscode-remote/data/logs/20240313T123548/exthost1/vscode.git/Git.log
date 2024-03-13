@@ -1,0 +1,26 @@
+2024-03-13 12:35:54.121 [info] Log level: Info
+2024-03-13 12:35:54.121 [info] Validating found git in: "git"
+2024-03-13 12:35:54.121 [info] Using git "2.43.0" from "git"
+2024-03-13 12:35:54.121 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-13 12:35:54.121 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-03-13 12:35:54.121 [info] Open repository: /workspace/project
+2024-03-13 12:35:54.121 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-13 12:35:54.121 [info] > git config --get commit.template [7ms]
+2024-03-13 12:35:54.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-13 12:35:54.121 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-13 12:35:54.121 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 12:35:54.121 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-13 12:35:54.121 [info] > git status -z -uall [2ms]
+2024-03-13 12:35:54.121 [info] > git config --get commit.template [8ms]
+2024-03-13 12:35:54.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-13 12:35:54.121 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 12:35:54.121 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-13 12:35:54.121 [info] > git status -z -uall [1ms]
+2024-03-13 12:35:54.633 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-13 12:35:55.902 [info] > git config --get commit.template [10ms]
+2024-03-13 12:35:55.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-13 12:35:55.911 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-13 12:35:55.912 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-13 12:35:55.920 [info] > git status -z -uall [1ms]
+2024-03-13 12:35:56.515 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-03-13 12:35:56.515 [warning] git config failed: Failed to execute git

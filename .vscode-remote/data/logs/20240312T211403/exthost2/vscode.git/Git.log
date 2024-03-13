@@ -1,0 +1,31 @@
+2024-03-12 21:51:49.625 [info] Log level: Info
+2024-03-12 21:51:49.625 [info] Validating found git in: "git"
+2024-03-12 21:51:49.625 [info] Using git "2.43.0" from "git"
+2024-03-12 21:51:49.625 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-12 21:51:49.625 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-12 21:51:49.625 [info] Open repository: /workspace/project
+2024-03-12 21:51:49.625 [info] > git config --get commit.template [9ms]
+2024-03-12 21:51:49.625 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-12 21:51:49.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-03-12 21:51:49.625 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-12 21:51:49.625 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-12 21:51:49.625 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-12 21:51:49.625 [info] > git status -z -uall [2ms]
+2024-03-12 21:51:49.625 [info] > git config --get commit.template [129ms]
+2024-03-12 21:51:49.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-03-12 21:51:49.625 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-12 21:51:49.625 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-12 21:51:49.625 [info] > git status -z -uall [6ms]
+2024-03-12 21:51:50.134 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-12 21:51:51.980 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-12 21:51:51.980 [warning] git config failed: Failed to execute git
+2024-03-12 21:54:12.758 [info] > git config --get commit.template [7ms]
+2024-03-12 21:54:12.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-12 21:54:12.763 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-12 21:54:12.764 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-12 21:54:12.771 [info] > git status -z -uall [1ms]
+2024-03-12 21:56:23.163 [info] > git config --get commit.template [9ms]
+2024-03-12 21:56:23.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-12 21:56:23.171 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-03-12 21:56:23.172 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-12 21:56:23.181 [info] > git status -z -uall [1ms]
