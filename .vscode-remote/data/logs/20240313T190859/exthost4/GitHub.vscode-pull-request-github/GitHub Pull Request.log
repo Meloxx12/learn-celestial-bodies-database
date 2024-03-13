@@ -11,3 +11,11 @@
 2024-03-13 20:28:53.080 [info] Review+0> No matching pull request metadata found locally for current branch main
 2024-03-13 20:28:53.080 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
 2024-03-13 20:28:53.212 [info] GlobalState does not exist for assignableUsers.
+2024-03-13 20:35:16.357 [info] Review+0> Validate state in progress
+2024-03-13 20:35:16.357 [info] Review+0> Validating state...
+2024-03-13 20:35:16.357 [info] Repo state for file:///workspace/project changed.
+2024-03-13 20:35:16.357 [info] Repo file:///workspace/project has already been setup.
+2024-03-13 20:35:16.495 [info] Found GitHub remote for folder /workspace/project
+2024-03-13 20:35:16.496 [info] Using in-memory cached assignable users.
+2024-03-13 20:35:16.506 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-03-13 20:35:16.506 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
